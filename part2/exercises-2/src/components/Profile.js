@@ -1,12 +1,20 @@
 import './styles.css';
 import Button from './Button';
-
+import oceans from './oceans.json';
 
 function Profile()
 {
+   let listItem = oceans.map((ocean) => 
+      <div key={ocean.id} className='profile'>
+         <img src={ocean.image} alt={ocean.name} className='img'/>
+      </div>
+      
+   );
    return(
       <>
-         <h3>Coming Soon! Profiles of Ocean creatures</h3>
+         <ul>
+            {listItem}
+         </ul>
          <Button />
       </>  
    );
