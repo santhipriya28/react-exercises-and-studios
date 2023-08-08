@@ -1,18 +1,12 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
-     "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
-     ]
+     "name": "Corn, Avocado, and Quinoa Salad with Marinated Tomatoes",
+     "author": "Lindsay",
+     "description": "The perfect summery quinoa salad – fresh corn, buttery avocado, nutty quinoa, juicy marinated tomatoes, and tons of fresh herbs.",
+     "website": "https://pinchofyum.com/corn-avocado-and-quinoa-salad-with-marinated-tomatoes",
+     "recipeImage": "https://pinchofyum.com/wp-content/uploads/Corn-Avocado-Salad-1-2-768x1152.jpg",
+     "authorImage": "https://pinchofyum.com/wp-content/assets/images/sidebar/sidebar-lindsay.jpg",
+     "ingredients": ["quinoa","raw sweet corn","marinated tomatoes","limes","avocados"]
    }
  ]
  
