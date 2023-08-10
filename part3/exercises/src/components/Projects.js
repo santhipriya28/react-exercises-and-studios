@@ -15,20 +15,19 @@ export default function MyProjects(){
    }
    }
 
-   let listItem = data.map((index) => 
-   <div key = {index.canvas}>
-        <li>{data[index].canvas}</li>
-        <li>{data[index].design}</li>
-        <li>{data[index].photoUrl}</li>
-        <li>{data[index].alt}</li>
-   </div>
  
-
-   );
    return(
     <div>
         <button id = "Next" onClick={handleClick}>Next</button>
-        {listItem}
+        <div>{handleClick}</div>
+        <div>
+            <ol>
+               <li>{data[index].canvas}</li>
+               <li>{data[index].design}</li>
+               <li>{data[index].photoUrl}</li>
+               <li>{data[index].alt}</li>
+            </ol>
+        </div>
     </div>
    );
 }
