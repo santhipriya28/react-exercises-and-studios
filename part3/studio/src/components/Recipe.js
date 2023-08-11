@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
    let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorPhoto = "https://hips.hearstapps.com/rover/profile_photos/743afec2-8cb0-4247-8722-05b4d891fe7a_1576786937.file?fill=1:1&resize=200:*";
+   let authorName = "MAKINZE GORE";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["crust","unsalted butter","granulated sugar"," graham crackers","Cooking spray"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,7 +34,7 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
+            <h1>Best Classic Cheesecake</h1>
             <p></p>
          </div>
          <div className="recipePhotoBlock">
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://hips.hearstapps.com/hmg-prod/images/classic-cheesecake-lead-642c57b870999.jpg?crop=1xw:0.9996297667530544xh;center,top&resize=980:*" alt="Cheese Cake" className="imageUpdates"/>
    );
 }
 
